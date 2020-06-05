@@ -20,15 +20,16 @@ https://github.com/graemerocher/framework-comparison-2020
 
 Test projects of each framework were built with standard maven 3.6.3.
 
-The number of requests per second was measured with 'ab' tool:
+The number of requests per second was measured with 'ab' and 'wrk' tool:
 
 ```
 ab -k -c 20 -n 1000000 http://localhost:8080/hello/John
+wrk -t12 -c400 -d30s --latency http://localhost:8080/hello/John
 ``` 
 
 Memory measured with VisualVM GUI.
 
 ### Results
 
-![results table](https://raw.githubusercontent.com/colesico/java-frameworks-comparison/master/Results.png)
+![Colesico vs Micronaut vs Quarkus vs Spring Boot Benchmark Results](https://raw.githubusercontent.com/colesico/java-frameworks-comparison/master/Results.png)
 
