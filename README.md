@@ -23,7 +23,7 @@ Test projects of each framework were built with standard maven 3.6.3.
 The number of requests per second was measured with 'ab' tool:
 
 ```
-ab -k -c 20 -n 10000000 http://localhost:8080/hello/John
+ab -k -c 20 -n 1000000 http://localhost:8080/hello/John
 ``` 
 
 Memory measured with VisualVM GUI.
