@@ -1,4 +1,0 @@
---patch-module
-colesico.framework.demo=_
---add-reads
-colesico.framework.demo=ALL-UNNAMED
