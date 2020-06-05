@@ -25,6 +25,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -62,10 +63,10 @@ public class DemoTest {
         return response.body();
     }
 
-   // @Test
+    @Test
     public void test1() throws Exception {
         String result = requestGET("http://localhost:8085/hello/colesico");
-        assertEquals("colesico",result);
+        assertEquals("\"Hola colesico\"", result);
     }
 
 }
