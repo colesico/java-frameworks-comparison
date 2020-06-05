@@ -29,5 +29,5 @@ Memory measured with VisualVM GUI.
 
 ### Results
 
-![results table](https://github.com/colesico/[reponame]/blob/[branch]/image.jpg?raw=true)
+![results table](https://raw.githubusercontent.com/colesico/java-frameworks-comparison/master/Results.png)
 
