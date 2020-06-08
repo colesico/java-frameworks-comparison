@@ -25,6 +25,7 @@ The number of requests per second was measured with 'ab' and 'wrk' tool:
 ```
 ab -k -c 20 -n 1000000 http://localhost:8080/hello/John
 wrk -t12 -c400 -d30s --latency http://localhost:8080/hello/John
+
 ``` 
 
 Memory measured with VisualVM GUI.
