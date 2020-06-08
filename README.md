@@ -31,5 +31,5 @@ Memory measured with VisualVM GUI.
 
 ### Results
 
-![Colesico vs Micronaut vs Quarkus vs Spring Boot Benchmark Results](https://raw.githubusercontent.com/colesico/java-frameworks-comparison/master/Results.png)
+![Colesico vs Micronaut vs Quarkus vs Spring Boot Benchmark Results](https://raw.githubusercontent.com/colesico/java-frameworks-comparison/master/Results-scr.png)
 
