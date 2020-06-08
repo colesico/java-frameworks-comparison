@@ -35,7 +35,7 @@ public class RestApi {
     }
 
     @Route("/hello/:name")
-    @RouteAttribute(name = NON_BLOCKING, value = "true")
+   // @RouteAttribute(name = NON_BLOCKING, value = "true")
     public String hello(String name) {
         return messageService.sayHello(name);
     }

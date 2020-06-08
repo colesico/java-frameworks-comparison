@@ -20,7 +20,7 @@
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
 
-        <colesico.version>3.4.0-SNAPSHOT</colesico.version>
+        <colesico.version>3.4.0</colesico.version>
         <logback.verion>1.2.3</logback.verion>
         <org-testng.version>7.1.0</org-testng.version>
 
@@ -30,7 +30,7 @@
         <!-- Colesico common services bundle -->
         <dependency>
             <groupId>net.colesico.framework</groupId>
-            <artifactId>colesico-bundle-web</artifactId>
+            <artifactId>colesico-bundle-rest</artifactId>
             <version>${colesico.version}</version>
         </dependency>
         <!-- Colesico undertow integration -->
@@ -91,7 +91,7 @@
                         <configuration>
                             <excludeScope>provided</excludeScope>
                             <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                            <excludeArtifactIds>javapoet</excludeArtifactIds>
+                            <excludeArtifactIds>javapoet, testng, snakeyaml, guava, guice</excludeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>

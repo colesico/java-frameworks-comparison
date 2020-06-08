@@ -1,6 +1,6 @@
 module colesico.framework.demo {
 
-    requires colesico.framework.bundle.web;
+    requires colesico.framework.bundle.rest;
     requires colesico.framework.undertow;
     requires java.net.http;
 
