@@ -24,9 +24,6 @@ import colesico.framework.router.RouteAttribute;
 
 import static colesico.framework.httpserver.HttpServerAttribute.NON_BLOCKING;
 
-/**
- * Mandatory http header X-Requested-With:XMLHttpRequest
- */
 @Restlet
 public class RestApi {
 
