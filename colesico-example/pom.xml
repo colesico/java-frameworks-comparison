@@ -89,9 +89,8 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <excludeScope>provided</excludeScope>
+                            <includeScope>runtime</includeScope>
                             <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                            <excludeArtifactIds>javapoet, testng, snakeyaml, guava, guice</excludeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>
