@@ -39,7 +39,7 @@ public class RestApi {
 
     // Uncomment to run in non-blocking
     // @RouteAttribute(name = NON_BLOCKING, value = "true")
-
+    
     @Route("/hello/:name")
     @RestletResponseWriter(PlainTextWriter.class)
     public String hello(String name) {
