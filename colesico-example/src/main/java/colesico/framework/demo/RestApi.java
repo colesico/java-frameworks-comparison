@@ -17,6 +17,8 @@
 package colesico.framework.demo;
 
 import colesico.framework.restlet.Restlet;
+import colesico.framework.restlet.teleapi.RestletResponseWriter;
+import colesico.framework.restlet.teleapi.writer.PlainTextWriter;
 import colesico.framework.router.Route;
 import colesico.framework.router.RouteAttribute;
 
@@ -34,8 +36,12 @@ public class RestApi {
         this.messageService = messageService;
     }
 
+
+    // Uncomment to run in non-blocking
+    // @RouteAttribute(name = NON_BLOCKING, value = "true")
+
     @Route("/hello/:name")
-   // @RouteAttribute(name = NON_BLOCKING, value = "true")
+    @RestletResponseWriter(PlainTextWriter.class)
     public String hello(String name) {
         return messageService.sayHello(name);
     }

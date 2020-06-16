@@ -2,7 +2,7 @@
 
 Performance, memory consumption and jar size comparison between:
 
-- Colesico-Framework 3.4
+- Colesico-Framework 3.5
 - Micronaut 2.0 
 - Quarkus 1.5 
 - Spring Boot 2.3

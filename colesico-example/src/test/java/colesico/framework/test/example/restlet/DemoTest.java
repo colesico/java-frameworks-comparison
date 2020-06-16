@@ -66,7 +66,7 @@ public class DemoTest {
     @Test
     public void test1() throws Exception {
         String result = requestGET("http://localhost:8085/hello/colesico");
-        assertEquals("\"Hola colesico\"", result);
+        assertEquals("Hola colesico", result);
     }
 
 }
