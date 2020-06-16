@@ -8,7 +8,7 @@ Performance, memory consumption and jar size comparison between:
 - Spring Boot 2.3
 
 Benchmark tests performed on:
-- JDK 14
+- JDK 14 on Ubuntu 20.04 Mate 1.24
 - 15 Gb RAM
 - Intel® Core™ i7-10510U CPU @ 1.80GHz × 8 
 - SSD
