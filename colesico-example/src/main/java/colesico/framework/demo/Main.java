@@ -18,8 +18,12 @@ package colesico.framework.demo;
 
 import colesico.framework.httpserver.HttpServer;
 import colesico.framework.ioc.IocBuilder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main {
+
+    static Logger logger = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
         long startTime = System.nanoTime();
@@ -34,6 +38,6 @@ public class Main {
         // Calc interval
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println("Application started in: "+(duration/1000000)+"ms");
+        logger.info("Application started in: {} ms",duration/1000000);
     }
 }
