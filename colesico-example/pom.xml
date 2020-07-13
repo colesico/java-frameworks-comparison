@@ -20,7 +20,7 @@
         <maven-dependency-plugin.version>3.1.2</maven-dependency-plugin.version>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
 
-        <colesico.version>3.5.0</colesico.version>
+        <colesico.version>3.7.0</colesico.version>
         <logback.verion>1.2.3</logback.verion>
         <org-testng.version>7.1.0</org-testng.version>
 

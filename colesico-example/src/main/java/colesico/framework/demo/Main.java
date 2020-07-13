@@ -22,14 +22,18 @@ import colesico.framework.ioc.IocBuilder;
 public class Main {
 
     public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-        
+        long startTime = System.nanoTime();
+
         // Run Http Server:
-        IocBuilder.create().build().instance(HttpServer.class).start();
-        
+        IocBuilder
+                .create()
+                .build()
+                .instance(HttpServer.class)
+                .start();
+
         // Calc interval
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println("Application started in: "+duration+"ms");
+        System.out.println("Application started in: "+(duration/1000000)+"ms");
     }
 }

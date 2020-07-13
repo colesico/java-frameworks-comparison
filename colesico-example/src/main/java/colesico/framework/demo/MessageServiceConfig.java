@@ -1,12 +1,10 @@
 package colesico.framework.demo;
 
 import colesico.framework.config.Config;
-import colesico.framework.config.FileSource;
-import colesico.framework.config.UseSource;
+import colesico.framework.config.UseFileSource;
 
 @Config
-@UseSource(bindAll = true)
-@FileSource(file = "message-service.properties")
+@UseFileSource(file = "message-service.properties")
 public class MessageServiceConfig {
 
     private String message = "Hello";
