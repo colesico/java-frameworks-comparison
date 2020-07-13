@@ -1,8 +1,8 @@
-# Colesico-Framework 3.5 vs Micronaut 2.0 vs Quarkus 1.5 vs Spring Boot 2.3  Benchmark - 2020 
+# Colesico-Framework 3.7 vs Micronaut 2.0 vs Quarkus 1.5 vs Spring Boot 2.3  Benchmark - 2020 
 
 Performance, memory consumption and jar size comparison between:
 
-- Colesico-Framework 3.5
+- Colesico-Framework 3.7
 - Micronaut 2.0 
 - Quarkus 1.5 
 - Spring Boot 2.3
