@@ -22,7 +22,7 @@
 
         <colesico.version>3.7.0</colesico.version>
         <logback.verion>1.2.3</logback.verion>
-        <org-testng.version>7.1.0</org-testng.version>
+        <org-testng.version>7.5.1</org-testng.version>
         <slf4j.version>1.7.30</slf4j.version>
 
     </properties>
